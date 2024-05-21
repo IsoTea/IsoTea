@@ -651,6 +651,9 @@ margin-top: 30px;
 }
 
 @media (max-width: 480px) {
+    .header-container{
+        width: 100%;
+    }
     .header-button button {
         width: 60px;
         font-size: 12px;
