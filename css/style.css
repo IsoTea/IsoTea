@@ -640,4 +640,10 @@ html, body {
     #iso-tea-logo-text-3{
         font-size: 20px;
     }
+    .footer-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
