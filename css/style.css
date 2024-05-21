@@ -468,6 +468,9 @@ margin-top: 30px;
 .footer-end{
     margin-top: 50px;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .iniwilson_{
     text-decoration: underline;
@@ -483,6 +486,16 @@ margin-top: 30px;
 }
 @media only screen and (max-width: 768px) {
     /* Adjust main-home section */
+    .header-button {
+        display: flex;
+        flex: 50%;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 300px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
     .home-container {
         flex-direction: column; /* Stack elements vertically */
         align-items: center; /* Center align content */
@@ -579,7 +592,7 @@ margin-top: 30px;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 20%;
+        gap: 5%;
         width: 550px;
         color: white;
         /*object infront image*/
@@ -588,5 +601,31 @@ margin-top: 30px;
         transform: translate(-50%, -50%);
         z-index: 1;
         position:absolute;
+    }
+    #about-text{
+        font-size: 11px;
+    }
+    .our-tea-image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+    .our-tea-image{
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .menu-peppermint-black-tea,
+    .menu-chamomile-black-tea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    }
+    #iso-tea-logo-text-3{
+        font-size: 20px;
     }
 }
