@@ -524,9 +524,13 @@ margin-top: 30px;
         height: auto; /* Auto height */
         margin-bottom: 20px; /* Add space between images */
     }
+    .about-image-2 {
+        margin-right: 0px;
+    }
     .about-text-container {
         width: 100%; /* Make text container full width */
         text-align: center; /* Center align text */
+        margin-left: 0px;
     }
     
     /* Adjust contact-us section */
@@ -567,7 +571,9 @@ margin-top: 30px;
     height: 200px;
     background-size: cover;
     background-position: center;
-    margin-right: 10px;
+    }
+    .about-image-1{
+        margin-right: 10px;
     }
     .main-our-tea{
         margin-top: 0px;
