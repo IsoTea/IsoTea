@@ -232,6 +232,10 @@ hr{
     padding-left: 25px;
     padding-right: 25px;
 }
+.about-upper-image{
+    display: flex;
+    flex-direction: row;
+}
 .about-image-1,
 .about-image-2{
     width: 225px;
@@ -471,4 +475,94 @@ margin-top: 30px;
 }
 .iniwilson_:hover{
     color: grey;
+}
+.surabaya-map{
+    width: 400px;
+    height: 400px;
+    border:0;
+}
+@media only screen and (max-width: 768px) {
+    /* Adjust main-home section */
+    .home-container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align content */
+    }
+    .home-text {
+        width: 100%; /* Make text full width */
+        text-align: center; /* Center align text */
+        margin-bottom: 20px; /* Add some space at the bottom */
+    }
+    .home-menu {
+        width: 100%; /* Make menu full width */
+    }
+    .main-menu {
+        margin-bottom: 20px; /* Add space between menu items */
+    }
+    
+    /* Adjust about section */
+    .about-upper {
+        flex-direction: column-reverse; /* Reverse order of elements */
+        align-items: center; /* Center align content */
+        padding: 20px; /* Add padding */
+    }
+    .about-image-1,
+    .about-image-2 {
+        width: 100%; /* Make images full width */
+        height: auto; /* Auto height */
+        margin-bottom: 20px; /* Add space between images */
+    }
+    .about-text-container {
+        width: 100%; /* Make text container full width */
+        text-align: center; /* Center align text */
+    }
+    
+    /* Adjust contact-us section */
+    .contact-us-container {
+
+    }
+    .contact-us-social-and-review {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align content */
+        justify-content: center;
+    }
+    .contact-us-review {
+        margin-top: 20px; /* Add space at the top */
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .surabaya-map{
+        width: 295px;
+        height: 200px;
+        border:0;
+        padding: 0px;
+    }
+    .footer-upper{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-heading{
+        margin-bottom: 20px;
+    }
+    .about-upper{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-1,
+    .about-image-2{
+    width: 117px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    }
+    .main-our-tea{
+        margin-top: 0px;
+    }
+    .main-contact-us{
+        margin-top: 0px;
+    }
+    .contact-us-social-and-review{
+        margin-top: 0px;
+    }
 }
